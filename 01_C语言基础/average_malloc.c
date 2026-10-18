@@ -10,7 +10,7 @@ int main()
     do{
         printf("请输入需要的数字的个数n(n>0)...\n");
         scanf("%d",&n);//输入所需数字个数
-    }while(n<=0);//判断个数是否大于0，若小于等于0则重输
+    }while(n<=0);//判断个数是否大于0，若小于等于0则重新输入
 
     a=(double*)malloc(n*sizeof(double));//为空指针a申请内存
 
