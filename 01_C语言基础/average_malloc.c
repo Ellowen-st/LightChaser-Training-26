@@ -5,7 +5,7 @@ int main()
 {
     double *a=NULL;//定义一个double类型的空指针
     int n=0,i=0;//n为所需数字的个数；i是数组元素的个数，用于作数组下标
-    double sum=0;//定义一个double类型的sum，sum是输入数字相加总和的意思
+    double sum=0;//定义一个double类型的sum，sum是输入数字相加总和的意思。
 
     do{
         printf("请输入需要的数字的个数n(n>0)...\n");
